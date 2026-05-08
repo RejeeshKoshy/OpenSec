@@ -1,0 +1,39 @@
+Modern SOCs rely on heavy Deep Learning models for anomaly detection, which are unsuitable for resource-constrained Edge environments. This paper proposes a lightweight hybrid framework. We evaluate the performance trade-offs between statistical profiling (Z-Score) and unsupervised learning (Isolation Forest) on a legacy hardware testbed.
+
+
+
+Nvidia's bullish rates on RAM and GPU.
+ML/AI demand increases in the market.
+DeepSeek breakthrough with efficient and optimized algos that perform comparatively well.
+
+
+Category 1: Efficiency is King
+
+"DeepSeek-V3 Technical Report" (Dec 2024)
+	The Argument: This paper proves that highly efficient architectures (Mixture-of-Experts) can outperform massive dense models while using significantly less compute.
+	Your Spin: "Just as DeepSeek optimized training efficiency by activating only 37B parameters per token, OpenSec Sentinel optimizes security monitoring by prioritizing lightweight statistical profiling over heavy Deep Learning, fitting within the 4GB RAM constraint of the edge node."
+
+"DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning" (Jan 2025)
+	The Argument: Demonstrates that "Reasoning" (intelligence) can be distilled into smaller models without needing massive supervised datasets.
+	Your Spin: "We adopt a similar philosophy of 'distilled intelligence'—using targeted algorithms (Isolation Forest) that offer high reasoning capabilities (anomaly detection) without the massive computational overhead of full neural networks."
+
+
+Category 2: The "Why Not Deep Learning?" Argument
+
+"Intrusion Detection on Resource-Constrained IoT Devices with Hardware-Aware ML and DL" (Dec 2025)
+	The Key Finding: This paper explicitly compares Tree-based ML (like Random Forest/Isolation Forest) against Deep Learning on edge hardware. It concludes that ML models deliver high accuracy while respecting memory/compute budgets, whereas DL models often exceed them.
+	Quote to use: "Tree-based ML models... are generally efficient but still require tuning to meet memory and latency constraints."
+
+"Lightweight and Accurate DNN-Based Anomaly Detection at Edge" (TU Delft, 2025)
+        The Key Finding: Acknowledges that while DNNs are accurate, their "long training and inference time" make them "inapplicable on resource strenuous edge devices" without complex scaling.
+        Your Spin: "Citing Zhang et al., we avoided heavy DNNs to prevent the high inference latency that plagues edge-based security systems."
+
+
+Category 3: The "Methodology" (Isolation Forest vs. Statistical)
+
+"Comparative Analysis of Machine Learning Models for Intrusion Detection Systems" (2024)
+        The Key Finding: A broad comparison showing that while complex models like GANs exist, traditional ensemble methods (similar family to Isolation Forest) provide superior adaptability and robustness.
+
+"Isolation Forest Based Anomaly Detection: A Systematic Literature Review" (2022/2026 Context)
+	The Key Finding: Isolation Forest consistently outperforms other unsupervised methods (like One-Class SVM) in terms of computational footprint, making it "more suitable for deployment on resource-constrained IoT edge devices".
+	Your Spin: "Our choice of Isolation Forest is backed by recent surveys identifying it as the optimal trade-off between precision and RAM usage for Edge SOCs."
