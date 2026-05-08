@@ -1,0 +1,132 @@
+\contentsline {chapter}{Certificate}{i}{Doc-Start}%
+\contentsline {chapter}{Declaration}{ii}{Doc-Start}%
+\contentsline {chapter}{Acknowledgment}{iii}{chapter*.1}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.2}%
+\contentsline {chapter}{List of Abbreviations}{xii}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Industry Profile}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Current State of Enterprise SIEMs}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Rise of SOAR Platforms}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}The Shift Toward Edge Computing and ML}{3}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Project Objectives \& Scope}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Core Objectives}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Project Scope and Hardware Architecture}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Hardware and Virtualization Environment}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Software and Tooling Scope}{6}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Literature Review}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Comparative Analysis of Existing Literature}{10}{section.4.1}%
+\contentsline {chapter}{\numberline {5}System Architecture}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Architectural Design Principles}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Layered Architecture Model}{13}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Data Collection Layer}{13}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Machine Learning Analysis Layer}{14}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Security Monitoring Layer}{14}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Automated Response Layer}{14}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Layer 3 Mitigation Routing (\texttt {iptables})}{15}{section.5.7}%
+\contentsline {chapter}{\numberline {6}System Analysis \& Specifications}{16}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Analysis of Existing SME Security Architectures}{16}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Reliance on Static Perimeter Defenses}{16}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Resource Constraints and Monolithic Overhead}{16}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}The Reactive Incident Response Gap}{17}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Advantages of the Proposed Architecture}{17}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Zero-Human-in-the-Loop Mitigation}{17}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Algorithmic and Resource Efficiency}{17}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Dynamic Behavioral Baselining}{17}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Feasibility Study}{18}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Technical Feasibility}{18}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Operational Feasibility}{18}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Economic Feasibility and Cost-Benefit Analysis (CB\-A)}{18}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Requirement Specifications}{19}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Hardware Requirements (Edge Simulation)}{19}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Software Requirements}{19}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Threat Modeling \& Attack Surface}{20}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}The "Low and Slow" Brute Force Vector}{20}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Volumetric Anomalies (DDoS Precursors)}{20}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Defense Evasion: Indicator Removal (T1070)}{20}{subsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.5.4}Discovery: Network Service Scanning (T1046)}{21}{subsection.6.5.4}%
+\contentsline {subsection}{\numberline {6.5.5}Risk Assessment Matrix}{21}{subsection.6.5.5}%
+\contentsline {section}{\numberline {6.6}MITRE ATT\&CK Framework Mapping}{21}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Credential Access: Brute Force (T1110)}{21}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Impact: Endpoint Denial of Service (T1499)}{22}{subsection.6.6.2}%
+\contentsline {section}{\numberline {6.7}Logical Orchestration Workflow}{22}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Software Requirements}{22}{subsection.6.7.1}%
+\contentsline {section}{\numberline {6.8}Threat Modeling \& Attack Surface}{23}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}The "Low and Slow" Brute Force Vector}{23}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Volumetric Anomalies (DDoS Precursors)}{23}{subsection.6.8.2}%
+\contentsline {section}{\numberline {6.9}Logical Orchestration Workflow}{23}{section.6.9}%
+\contentsline {chapter}{\numberline {7}System Design}{25}{chapter.7}%
+\contentsline {section}{\numberline {7.1}System Data Flow and Architecture Diagrams}{25}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Context and Data Flow Diagrams}{25}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Topography and Stack Architecture}{27}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Internal SIEM Daemon Architecture}{28}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Process Workflows and Use Cases}{30}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Unified Modeling Language (UML) Specifications}{32}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}System Sequence Diagram Execution Flow}{32}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Object-Oriented Class Design (Python Engine)}{33}{subsection.7.5.2}%
+\contentsline {chapter}{\numberline {8}Data Processing Pipeline}{34}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Telemetry Ingestion}{34}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Feature Engineering}{34}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Real-Time Model Inference}{35}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Alert Generation}{35}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Data Dictionary and Schema Definitions}{35}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}AI Engine JSON Output Schema}{35}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Raw Decoded Alert Sample}{36}{subsection.8.5.2}%
+\contentsline {chapter}{\numberline {9}Methodology \& Implementation}{38}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Development Environment}{38}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Tools and Technologies}{38}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Development Phases and Workflow}{39}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Isolation Forest Algorithm}{40}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Algorithm Intuition}{40}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Algorithm Principle}{40}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.3}Algorithmic Pseudocode}{40}{subsection.9.4.3}%
+\contentsline {subsection}{\numberline {9.4.4}Mathematical Representation and Path Length Calculation}{41}{subsection.9.4.4}%
+\contentsline {subsubsection}{Interpreting the Anomaly Score}{42}{subsection.9.4.4}%
+\contentsline {subsection}{\numberline {9.4.5}Advantages for Cybersecurity Applications}{42}{subsection.9.4.5}%
+\contentsline {section}{\numberline {9.5}Infrastructure Provisioning: Proxmox and Ubuntu}{43}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Hypervisor Resource Allocation Matrix}{43}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Proxmox Network Bridging (vmbr0)}{43}{subsection.9.5.2}%
+\contentsline {section}{\numberline {9.6}Containerization and the SIEM Stack}{44}{section.9.6}%
+\contentsline {section}{\numberline {9.7}The AI Engine: Mathematical Baselining}{44}{section.9.7}%
+\contentsline {section}{\numberline {9.8}Closing the Loop: Syslog Injection and SOAR}{44}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Active Response Mitigation Script (\texttt {firewal\-l-drop.sh})}{45}{section.9.9}%
+\contentsline {section}{\numberline {9.10}Wazuh Rule \& Decoder Configuration}{46}{section.9.10}%
+\contentsline {subsection}{\numberline {9.10.1}Custom Decoder (\texttt {local\_decoder.xml})}{47}{subsection.9.10.1}%
+\contentsline {subsection}{\numberline {9.10.2}Custom Rule (\texttt {local\_rules.xml})}{47}{subsection.9.10.2}%
+\contentsline {subsection}{\numberline {9.10.3}Agent Log Ingestion Configuration (\texttt {ossec.conf})}{47}{subsection.9.10.3}%
+\contentsline {section}{\numberline {9.11}Endpoint Agent Deployment and Log Shipping}{48}{section.9.11}%
+\contentsline {subsection}{\numberline {9.11.1}Agent Enrollment Script}{48}{subsection.9.11.1}%
+\contentsline {section}{\numberline {9.12}OpenSearch Data Indexing and Aggregation}{49}{section.9.12}%
+\contentsline {subsection}{\numberline {9.12.1}Filebeat Log Shipping}{49}{subsection.9.12.1}%
+\contentsline {subsection}{\numberline {9.12.2}Document Mapping and JSON Structure}{50}{subsection.9.12.2}%
+\contentsline {chapter}{\numberline {10}System Provisioning \& Deployment}{51}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Container Orchestration (\texttt {docker-compose.yml})}{51}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Host Firewall Baseline Provisioning}{52}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Software Testing \& Quality Assurance}{54}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Testing Strategy}{54}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Unit Testing}{54}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Integration Testing}{55}{section.11.3}%
+\contentsline {section}{\numberline {11.4}System Testing}{55}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Results \& Analysis}{57}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Offline Benchmark: Statistical vs. ML Detection}{57}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Performance Metrics Summary}{59}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Live Edge Telemetry Validation (Sandboxed PoC)}{59}{subsection.12.2.1}%
+\contentsline {section}{\numberline {12.3}Live Attack Simulation Analysis}{60}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Hardware Resource Utilization Profiling}{60}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}Algorithmic Complexity Validation}{61}{subsection.12.4.1}%
+\contentsline {chapter}{\numberline {13}Challenges Faced \& Solutions Implemented}{62}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Docker Ephemerality and Configuration Amnesia}{62}{section.13.1}%
+\contentsline {section}{\numberline {13.2}The OpenSearch Timestamp Indexing Bug}{62}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Tuning the AI Contamination Parameter}{63}{section.13.3}%
+\contentsline {chapter}{\numberline {14}Security Evaluation}{64}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Test Environment}{64}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Attack Scenarios}{64}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}SSH Brute Force Attack}{64}{subsection.14.2.1}%
+\contentsline {subsection}{\numberline {14.2.2}Low and Slow Attack}{64}{subsection.14.2.2}%
+\contentsline {subsection}{\numberline {14.2.3}Volumetric Traffic Spike}{65}{subsection.14.2.3}%
+\contentsline {subsection}{\numberline {14.2.4}Chronological Attack Simulation Narrative: Distributed Brute Force}{65}{subsection.14.2.4}%
+\contentsline {section}{\numberline {14.3}Performance Analysis}{66}{section.14.3}%
+\contentsline {chapter}{\numberline {15}Conclusion \& Future Scope}{67}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Conclusion}{67}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Future Scope and Enterprise Scalability}{68}{section.15.2}%
+\contentsline {chapter}{References}{70}{chapter*.7}%
+\contentsline {chapter}{Appendix}{71}{chapter*.8}%

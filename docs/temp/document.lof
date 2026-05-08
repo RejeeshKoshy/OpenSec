@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Complete System Architecture detailing the hardware constraints, hypervisor boundaries, Docker isolation, and the automated Syslog-to-iptables response loop.}}{12}{figure.5.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces DFD Level 0: Context Diagram illustrating macro-level system interactions.}}{25}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces DFD Level 1: Detailed Flow mapping the internal triage and response engine.}}{26}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Network Topology illustrating the virtual bridge and the iptables routing chokepoint.}}{27}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Technology Stack separating the Application, Container, Virtualization, and Hardware layers.}}{28}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Incident Response Kill Chain mapping the 5-step automated mitigation workflow.}}{30}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Use Case Diagram mapping actor permissions and automated system interactions.}}{31}{figure.7.6}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Docker exec output confirming the \texttt {<active-response>} block permanently hardcoded within the Wazuh Manager's \texttt {ossec.conf}.}}{45}{figure.9.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Offline Benchmark Comparison: The Isolation Forest (bottom) successfully detects the stealth attack phase that the traditional Z-Score statistical model (middle) completely misses.}}{58}{figure.12.1}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Real-Time Edge Telemetry Analysis comparing the Statistical baseline vs. the Isolation Forest (iForest) model in a live terminal environment.}}{59}{figure.12.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Wazuh Discover Dashboard displaying the Level 12 OpenSec-AI anomaly alert successfully triggered by the ML model via syslog injection.}}{71}{figure.15.1}%
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Expanded JSON document view within the OpenSearch database confirming accurate log parsing, metadata extraction, and correct rule firing.}}{72}{figure.15.2}%
+\contentsline {figure}{\numberline {15.3}{\ignorespaces The final custom OpenSearch Security Command Center displaying real-time metrics of automated AI threat intercepts, proving pipeline stability.}}{73}{figure.15.3}%

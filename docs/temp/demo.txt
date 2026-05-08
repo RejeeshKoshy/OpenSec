@@ -1,0 +1,7 @@
+TERMINAL 1
+cd /home/sysadmin/wazuh-docker/single-nodede
+docker compose build ai-engine && docker compose up -d ai-engine
+docker logs -f sentinel-ai-engine
+
+TERMINAL 2
+hydra -l root -P ~/test-passwords-long.txt   ssh://100.108.165.31 -t 4 -w 5
