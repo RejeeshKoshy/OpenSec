@@ -1,0 +1,4 @@
+<global>
+  <white_list>127.0.0.1</white_list>
+  <white_list>100.0.0.0/8</white_list>
+</global>
